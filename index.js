@@ -9,6 +9,13 @@ const client = new Client({
   ],
 });
 
+// List of trigger words
+const triggers = {
+  scalper: ["shut yo bubble gum dum dum look ahh up", "goofy lookin ahh boi", "kys"],
+  wife: ["iTs fOr tHe mAsTeRseT", "alright buddy", "banned"],
+  290: ["It's empty don't bother checking", "where's hawaiian shirt"]
+};
+
 // List of quotes
 const quotes = [
   "Commit sewer slide.",
@@ -39,6 +46,14 @@ client.on('messageCreate', (message) => {
     // Pick a random quote
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
     message.channel.send(randomQuote);
+  }
+
+  const msgContent = message.content.toLowerCase();
+  for (const [word, responses] of Object.entries(triggers)) {
+    if (msgContent.includes(word)) {
+      const randomResponse = responses[Math.floor(Math.random() * responses.length)];
+      message.channel.send(randomResponse);
+    }
   }
 });
 
