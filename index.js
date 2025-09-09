@@ -53,6 +53,7 @@ client.on('messageCreate', (message) => {
     if (msgContent.includes(word)) {
       const randomResponse = responses[Math.floor(Math.random() * responses.length)];
       message.channel.send(randomResponse);
+      break;
     }
   }
 });
