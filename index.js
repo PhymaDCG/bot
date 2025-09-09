@@ -13,6 +13,15 @@ const client = new Client({
 const quotes = [
   "Commit sewer slide.",
   "I need this for my wife.",
+  "PLAYABLE",
+  "It's for the wife's masterset.",
+  "Is this available?"
+  "Up for grabs?",
+  "Insert Shum crashing out over losing a 1/3 for a godpack + SIR.",
+  "I wonder how many quotes I can even fit into here.",
+  "Apparently Olivia is bad at pickleball.",
+  "BRING BACK CENSORSHIP",
+  "Scalpers gonna scalp gg",
   "FedEx sucks.",
   "HAH, GAEEEEEE",
   "An issue of one's skill.",
