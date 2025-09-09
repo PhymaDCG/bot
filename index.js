@@ -15,9 +15,9 @@ const quotes = [
   "I need this for my wife.",
   "PLAYABLE",
   "It's for the wife's masterset.",
-  "Is this available?"
+  "Is this available?",
   "Up for grabs?",
-  "Insert Shum crashing out over losing a 1/3 for a godpack + SIR.",
+  "Insert Shum crashing out over losing a 1/3 for a godpack and SIR.",
   "I wonder how many quotes I can even fit into here.",
   "Apparently Olivia is bad at pickleball.",
   "BRING BACK CENSORSHIP",
