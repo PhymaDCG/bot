@@ -11,9 +11,9 @@ const client = new Client({
 
 // List of trigger words
 const triggers = {
-  scalp: ["shut yo bubble gum dum dum look ahh up", "goofy lookin ahh boi", "kys"],
-  wife: ["iTs fOr tHe mAsTeRseT", "alright buddy", "banned"],
-  290: ["It's empty don't bother checking", "where's hawaiian shirt"]
+  "scalp": ["shut yo bubble gum dum dum look ahh up", "goofy lookin ahh boi", "kys"],
+  "wife": ["iTs fOr tHe mAsTeRseT", "alright buddy", "banned"],
+  "290": ["It's empty don't bother checking", "where's hawaiian shirt"]
 };
 
 // List of quotes
